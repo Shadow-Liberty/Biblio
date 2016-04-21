@@ -1,0 +1,72 @@
+body{
+    font-family: $ralewayStack;
+    background-color: #F0F0F0;
+}
+
+.header{
+    position: fixed;
+}
+
+.logo{
+    background: url("../../img/Logo.svg");
+    background-repeat: no-repeat;
+}
+
+.nav{
+    background-color: #171717;
+    text-transform: uppercase;
+    &__link{
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        border-bottom: 0.5px solid grey;
+    }
+}
+
+.firstSearch input{
+    background-color: #373636;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+}
+
+.article{
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.article h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.article a{
+    text-decoration: none;
+    color: #f22865;
+    margin-top: 20px;
+    display: block;
+}
+
+.aside{
+    background-color: #fff;
+    border-radius: 3px;
+
+    &__content{
+
+        &__link{
+            text-decoration: none;
+            color: #f22865;
+        }
+    }
+}
+
+.footer{
+    &__small{
+        text-transform: uppercase;
+        font-size: 10px;
+        color: #cfcfcf
+    }
+}

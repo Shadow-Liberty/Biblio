@@ -1,0 +1,197 @@
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.header{
+    width: 100%;
+    height: 100%;
+    // display: none;
+    position: absolute;
+    z-index: 4;
+    -webkit-transition: margin-left .15s linear;
+	transition: margin-left .15s linear;
+}
+
+.hWrapper{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    left: 15px;
+    top: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu img{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 40px;
+    display: inline-block;
+}
+
+.nav{
+    width: 18rem;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    margin-left: -18rem;
+    -webkit-transition: margin-left .15s linear;
+	transition: margin-left .15s linear;
+
+
+    &__link{
+        display: block;
+        padding: 10px 0 12px 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        top: 70px;
+    }
+}
+
+.firstSearch{
+    position: absolute;
+    z-index: 3;
+    -webkit-transition: margin-left .15s linear;
+	transition: margin-left .15s linear;
+    margin-left: -18rem;
+}
+
+.firstSearch input{
+    display: block;
+    width: 16rem;
+    margin-left: 15px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+}
+
+.firstSearch label{
+    display: none;
+}
+
+.main-content{
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 350px;
+    background: url("../../img/boku_no_hero_academia_wallpaper_hd_anime_by_corphish2-d9fl0dr.jpg");
+    background-size: cover;
+
+}
+
+.form{
+    display: none;
+}
+
+.lastAdded{
+    margin-top: 50px;
+    width: 100%;
+    padding-left: 70px;
+}
+
+.lastAdded h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.article{
+    margin-top: 50px;
+    width: 280px;
+    display: inline-block;
+    margin-left: 40px;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+article:first-of-type{
+    margin-left: 0;
+}
+
+
+.article img{
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    position: relative;
+    top: -15px;
+}
+
+.article h3{
+    position: absolute;
+    padding-bottom: 20px;
+    top: 230px;
+}
+
+.article p{
+
+}
+
+.imgB{
+    width: 280px;
+    height: 200px;
+    position: absolute;
+    background-color: #373636;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.aside{
+    position: absolute;
+    right: 0;
+    width: 240px;
+    top: 400px;
+    padding: 20px;
+
+    &__title{
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    &__content{
+        margin-bottom: 30px;
+
+        &__link{
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}
+
+.footer{
+    position: absolute;
+    bottom: -180px;
+    width: 100%;
+    text-align: center;
+    &__small{
+
+    }
+}
